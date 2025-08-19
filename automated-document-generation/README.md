@@ -3,7 +3,7 @@
 **Description:**  
 This Power Automate flow automatically generates Word and PDF documents based on data from an Excel file. The process is triggered manually after clicking the link, and the resulting documents are saved to SharePoint.
 
-## Limitations and Problem-Solving Approach
+**Limitations and Problem-Solving Approach:**
 
 Due to limited access to certain systems and data within the current organizational structure, I often need to find alternative ways to solve problems. This frequently involves designing additional workflows or creating workarounds to achieve the desired outcomes.
 
@@ -49,7 +49,8 @@ This approach was necessary due to permission limitations that prevented direct 
 - Reducing manual document creation time
   
 **Repository Contents:**  
-- `flow-overview.png` – visual diagram of the flow  
+- `flow-overview.png` – visual diagram of the 1 workflow
+- `flow-overview1.png` – visual diagram of the 2 workflow
 - `template.docx` – sample Word template  
 - `data.xlsx` – sample Excel data file  
 - `instructions.md` – step-by-step setup guide
