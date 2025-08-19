@@ -34,7 +34,7 @@ This workaround ensures the process runs smoothly despite the technical constrai
 7. Once the process is complete, a summary message is sent to the entire team via Microsoft Teams, including the number of documents created.
 
 **Workflow 2 Overview: Automated PDF Conversion Flow with OneDrive Workaround**
-
+![Workflow 2 Overview](flow-overview1.png)
 1. The flow is triggered automatically when a new file is added to a specific SharePoint folder.
 2. A copy of the file is created in OneDrive, preserving the original file name and structure.
 3. The file in OneDrive is then converted to PDF format.
