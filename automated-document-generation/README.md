@@ -25,13 +25,15 @@ This workaround ensures the process runs smoothly despite the technical constrai
 
 **Workflow 1 Overview: Word document Generation from Excel**  
 ![Workflow 1 Overview](flow-overview.png)
-1. The user triggers the flow manually by clicking a link in an Excel file, which opens an HTML page.
-2. The flow reads data from an Excel file stored in SharePoint.
-3. Based on the data in the Excel file, the flow identifies which type of document needs to be generated and selects the appropriate Word template.
-4. A Word document is generated using the selected template and filled with the relevant data.
-5. The document is saved with a filename that includes the person's first and last name.
-6. The flow keeps track of how many documents have been generated during the run.
-7. Once the process is complete, a summary message is sent to the entire team via Microsoft Teams, including the number of documents created.
+1. The user fills in the data in a previously prepared Excel template.
+2. The user triggers the flow manually by clicking a link in an Excel file, which opens an HTML page.
+![Data Excel Template](data-excel-template.png)
+4. The flow reads data from an Excel file stored in SharePoint.
+5. Based on the data in the Excel file (column D), the flow identifies which type of document needs to be generated and selects the appropriate Word template.
+6. A Word document is generated using the selected template and filled with the relevant data.
+7. The document is saved with a filename that includes the person's first and last name.
+8. The flow keeps track of how many documents have been generated during the run.
+9. Once the process is complete, a summary message is sent to the entire team via Microsoft Teams, including the number of documents created.
 
 **Workflow 2 Overview: Automated PDF Conversion Flow with OneDrive Workaround**
 ![Workflow 2 Overview](flow-overview1.png)
